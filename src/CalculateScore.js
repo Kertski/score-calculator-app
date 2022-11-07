@@ -14,8 +14,7 @@ function SampleForm(){
 
     const handleChange = (event) =>{
         const fieldName = event.target.name;
-        cons
-        t fieldValue = event.target.value;
+        const fieldValue = event.target.value;
 
         if(fieldName == 'age' && fieldValue > 65){
             setErrors(values=>({...values, age: "Age must no be greater that 65!",age_fieldClass:"error-field"}));
