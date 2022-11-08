@@ -1,9 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import CalculateScore from './CalculateScore';
-import ScoreForm from './ScoreForm';
-import TicTacToe from './TicTacToe';
 import CityList from './CityList';
+import Staff from './Staff';
 
 
 function App() {
@@ -11,9 +9,7 @@ function App() {
     <div className="Container">
       <div className='row-6'>
         <CityList/>
-        <TicTacToe/>
-        <ScoreForm/>
-        <CalculateScore/>
+        <Staff/>
       </div>
     </div>
   );

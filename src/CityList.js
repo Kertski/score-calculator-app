@@ -17,16 +17,15 @@ function CityList(){
     return (
         <div>
             <h1>List of Cities</h1>
-            <label>Choose City</label>
+            <label className='h3'>Choose City</label>
             <select className='select'>
             <option>Select City</option>
-            {cities.map((cities)=>{
+            {cities.map((name)=>{
                 return (
                     <option>
-                    <div>
-                    {cities.city}
-                    <br></br>
-                    </div>
+                        <div>
+                        {name.city}
+                        </div>
                     </option>
                 );
             })}
