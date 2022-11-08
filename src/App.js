@@ -3,12 +3,14 @@ import './App.css';
 import CalculateScore from './CalculateScore';
 import ScoreForm from './ScoreForm';
 import TicTacToe from './TicTacToe';
-import DynamicForm from './DynamicForm';
+import CityList from './CityList';
+
 
 function App() {
   return (
     <div className="Container">
       <div className='row-6'>
+        <CityList/>
         <TicTacToe/>
         <ScoreForm/>
         <CalculateScore/>

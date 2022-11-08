@@ -72,3 +72,7 @@
   background-color: black;
 
 }
+
+select {
+  width: 20px !important;
+}
